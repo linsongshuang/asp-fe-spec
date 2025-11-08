@@ -1,20 +1,10 @@
-0 silly argv {
-0 silly argv   _: [ 'create' ],
-0 silly argv   lernaVersion: '9.0.0',
-0 silly argv   '$0': 'node_modules\\lerna\\dist\\cli.js',
-0 silly argv   name: 'asp-commitlint'
-0 silly argv }
-1 notice cli v9.0.0
-2 verbose packageConfigs Package manager "pnpm" detected. Resolving packages using `pnpm-workspace.yaml`.
-3 verbose rootPath C:\Users\linsongshuang_a\Desktop\code\asp-fe-spec
-4 warn ENOREMOTE No git remote found, skipping repository property
-5 error Error: canceled
-5 error     at Interface.<anonymous> (C:\Users\linsongshuang_a\Desktop\code\asp-fe-spec\node_modules\.pnpm\read@4.1.0\node_modules\read\dist\commonjs\read.js:89:21)
-5 error     at Interface.emit (node:events:513:28)
-5 error     at Interface._ttyWrite (node:readline:1085:16)
-5 error     at ReadStream.onkeypress (node:readline:291:10)
-5 error     at ReadStream.emit (node:events:513:28)
-5 error     at emitKeys (node:internal/readline/utils:357:14)
-5 error     at emitKeys.next (<anonymous>)
-5 error     at ReadStream.onData (node:internal/readline/emitKeypressEvents:61:36)
-5 error     at ReadStream.emit (node:events:513:28)
+24 error TypeError: items.findLastIndex is not a function
+24 error     at C:\Users\linsongshuang_a\Desktop\code\asp-fe-spec\node_modules\.pnpm\@inquirer+select@4.4.0\node_modules\@inquirer\select\dist\commonjs\index.js:65:28
+24 error     at C:\Users\linsongshuang_a\Desktop\code\asp-fe-spec\node_modules\.pnpm\@inquirer+core@10.3.0\node_modules\@inquirer\core\dist\commonjs\lib\use-memo.js:11:27
+24 error     at withPointer (C:\Users\linsongshuang_a\Desktop\code\asp-fe-spec\node_modules\.pnpm\@inquirer+core@10.3.0\node_modules\@inquirer\core\dist\commonjs\lib\hook-engine.js:79:25)
+24 error     at useMemo (C:\Users\linsongshuang_a\Desktop\code\asp-fe-spec\node_modules\.pnpm\@inquirer+core@10.3.0\node_modules\@inquirer\core\dist\commonjs\lib\use-memo.js:6:45)
+24 error     at C:\Users\linsongshuang_a\Desktop\code\asp-fe-spec\node_modules\.pnpm\@inquirer+select@4.4.0\node_modules\@inquirer\select\dist\commonjs\index.js:63:39
+24 error     at C:\Users\linsongshuang_a\Desktop\code\asp-fe-spec\node_modules\.pnpm\@inquirer+core@10.3.0\node_modules\@inquirer\core\dist\commonjs\lib\create-prompt.js:120:38
+24 error     at Object.store.handleChange (C:\Users\linsongshuang_a\Desktop\code\asp-fe-spec\node_modules\.pnpm\@inquirer+core@10.3.0\node_modules\@inquirer\core\dist\commonjs\lib\hook-engine.js:31:17)
+24 error     at cycle (C:\Users\linsongshuang_a\Desktop\code\asp-fe-spec\node_modules\.pnpm\@inquirer+core@10.3.0\node_modules\@inquirer\core\dist\commonjs\lib\hook-engine.js:33:19)
+24 error     at C:\Users\linsongshuang_a\Desktop\code\asp-fe-spec\node_modules\.pnpm\@inquirer+core@10.3.0\node_modules\@inquirer\core\dist\commonjs\lib\create-prompt.js:118:13
