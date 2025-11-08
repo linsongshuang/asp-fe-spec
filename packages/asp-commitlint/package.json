@@ -14,11 +14,7 @@
   "files": [
     "lib"
   ],
-  "scripts": {
-    "test": "node ./__tests__/asp-commitlint.test.js",
-    "publish": "npm publish"
-  },
-  "gitHead": "234fc0dc9f1653c4da165439b8efba714bb8b26c",
+  "gitHead": "a3dd85f5989017d2be65766a5d3c8e60a3b605a6",
   "dependencies": {
     "conventional-changelog-conventionalcommits": "^9.1.0"
   }
