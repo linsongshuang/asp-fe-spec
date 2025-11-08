@@ -1,0 +1,20 @@
+0 silly argv {
+0 silly argv   _: [ 'create' ],
+0 silly argv   lernaVersion: '9.0.0',
+0 silly argv   '$0': 'node_modules\\lerna\\dist\\cli.js',
+0 silly argv   name: 'asp-commitlint'
+0 silly argv }
+1 notice cli v9.0.0
+2 verbose packageConfigs Package manager "pnpm" detected. Resolving packages using `pnpm-workspace.yaml`.
+3 verbose rootPath C:\Users\linsongshuang_a\Desktop\code\asp-fe-spec
+4 warn ENOREMOTE No git remote found, skipping repository property
+5 error Error: canceled
+5 error     at Interface.<anonymous> (C:\Users\linsongshuang_a\Desktop\code\asp-fe-spec\node_modules\.pnpm\read@4.1.0\node_modules\read\dist\commonjs\read.js:89:21)
+5 error     at Interface.emit (node:events:513:28)
+5 error     at Interface._ttyWrite (node:readline:1085:16)
+5 error     at ReadStream.onkeypress (node:readline:291:10)
+5 error     at ReadStream.emit (node:events:513:28)
+5 error     at emitKeys (node:internal/readline/utils:357:14)
+5 error     at emitKeys.next (<anonymous>)
+5 error     at ReadStream.onData (node:internal/readline/emitKeypressEvents:61:36)
+5 error     at ReadStream.emit (node:events:513:28)

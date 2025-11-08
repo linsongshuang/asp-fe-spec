@@ -1,0 +1,19 @@
+{
+  "name": "asp-commitlint",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "homepage": "",
+  "license": "ISC",
+  "author": "linsongshuang_a <linsongshuang_a@aspirecn.com>",
+  "main": "lib/asp-commitlint.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/asp-commitlint.test.js"
+  }
+}
