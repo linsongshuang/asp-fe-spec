@@ -3,5 +3,5 @@
 module.exports = aspCommitlint;
 
 function aspCommitlint() {
-  return 'Hello from aspCommitlint';
+  return 'Hello from aspCommitlint 222';
 }
