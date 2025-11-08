@@ -1,6 +1,7 @@
 {
   "name": "asp-commitlint",
   "version": "0.0.1",
+  "private": false,
   "description": "> TODO: description",
   "homepage": "",
   "license": "ISC",
@@ -16,5 +17,9 @@
   "scripts": {
     "test": "node ./__tests__/asp-commitlint.test.js",
     "publish": "npm publish"
+  },
+  "gitHead": "234fc0dc9f1653c4da165439b8efba714bb8b26c",
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^9.1.0"
   }
 }
