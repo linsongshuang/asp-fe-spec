@@ -3,13 +3,17 @@
 module.exports = {
   parserPreset: 'conventional-changelog-conventionalcommits',
   rules: {
-    'type-enum': [2, 'always', ['feat', 'fix', 'docs', 'style', 'refactor', 'perf', 'test', 'chore', 'revert', 'build', 'ci', 'docs', 'style', 'refactor', 'perf', 'test', 'chore', 'revert', 'build', 'ci', 'docs', 'style', 'refactor', 'perf', 'test', 'chore', 'revert', 'build', 'ci']],
-    'type-case': [0],
-    'type-empty': [0],
-    'scope-empty': [0],
-    'scope-case': [0],
-    'subject-full-stop': [0],
+    'body-leading-blank': [1, 'always'],
+    'body-max-line-length': [2, 'always', 100],
+    'footer-leading-blank': [1, 'always'],
+    'footer-max-line-length': [2, 'always', 100],
+    'header-max-length': [2, 'always', 100],
+    'scope-case': [2, 'always', 'lower-case'],
     'subject-case': [0],
-    'subject-empty': [0],
-  }
+    'subject-empty': [2, 'never'],
+    'subject-full-stop': [2, 'never', '.'],
+    'type-case': [2, 'always', 'lower-case'],
+    'type-empty': [2, 'never'],
+    'type-enum': [2, 'always', ['feat', 'fix', 'docs', 'style', 'test', 'refactor', 'chore', 'revert']],
+  },
 }
