@@ -1,0 +1,29 @@
+{
+  "name": "asp-markdownlint",
+  "version": "0.0.4",
+  "description": "n",
+  "homepage": "https://github.com/linsongshuang/asp-fe-spec#readme",
+  "bugs": {
+    "url": "https://github.com/linsongshuang/asp-fe-spec/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linsongshuang/asp-fe-spec.git"
+  },
+  "license": "ISC",
+  "author": "linsongshuang_a <linsongshuang_a@aspirecn.com>",
+  "main": "lib/asp-markdownlint.json",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/asp-markdownlint.test.js"
+  },
+  "devDependencies": {
+    "markdownlint": "^0.39.0"
+  }
+}
